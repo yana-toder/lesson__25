@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap');
+body{
+	font-family: 'Lato';
+	color: #424551;
+	font-family: 'Montserrat';
+}
+
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main{
+	flex-grow: 1;
+}
+/* ============================ */
+.search {
+	padding: 300px 0px;
+}
+.search__container {
+	position: relative;
+
+}
+
+.search__button img{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+   left: 20%;
+	border: 1px solid rgb(44, 43, 43);
+	border-radius: 10px;
+}
+
+.box {
+	display: none;
+}
+._open {
+	display: block;
+}
+
+.form {
+	display: flex;
+	position: absolute;
+}
+
+.input {
+	display: flex;
+	justify-content: center;
+
+}
+
+.input__item {
+	border-radius: 10px 0 0 10px;
+	width: 300px;
+	height: 50px;
+	padding: 10px;
+	font-size: 18px;
+	color: #fff;
+	background-color: rgb(44, 43, 43);
+}
+
+.input__button {
+	background-color: rgb(44, 43, 43);
+	border-radius: 0 10px 10px 0;
+}
+.input__counter {
+	text-align: center;
+	padding-top: 57px;
+}
+
+.input__button img {
+	width: 45px;
+	height: 45px;
+
+}
